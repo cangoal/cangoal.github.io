@@ -1,2 +1,3 @@
-name : Kan Guo, R&L Carriers
+name : Cangoal, R&L Carriers
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
