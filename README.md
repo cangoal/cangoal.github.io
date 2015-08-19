@@ -1,1 +1,1 @@
-# cangoal.github.io[http://cangoal.github.io/]
+# [cangoal.github.io](http://cangoal.github.io/)
