@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This is my first post"
+title: "How to set up github pages"
 date: 2015-04-01
 ---
 
