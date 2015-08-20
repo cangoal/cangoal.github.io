@@ -4,8 +4,8 @@ title: "Java Basics - my cheeting sheet"
 date: 2015-08-20
 ---
 
-# Map
-##### 1. Declaration and Initialization
+## Map
+### 1. Declaration and Initialization
 
 ```java
     private static final Map<Character, Character> map = new HashMap<Character, Character>(){
@@ -17,13 +17,13 @@ date: 2015-08-20
             }
     };
 ```
-# Character
+## Character
 ```java
     Character.isLetterOrDigit();
     Character.toLowerCase();
 ```
 
-# Bit Manipulation
+## Bit Manipulation
 ```java
     &   // bitwise AND
     ^   // bitwise exclusive OR, boolean exclusive OR 
@@ -32,13 +32,13 @@ date: 2015-08-20
     >>> // unsigned right shift
 ```
 
-# StringBuilder
+## StringBuilder
 
 ```java
     deleteCharAt(index)
 ```
 
-# Comparator & Comparable
+## Comparator & Comparable
 
 ```java
     public Comparator<Integer> comparator = new Comparator<Integer>(){
@@ -55,7 +55,7 @@ date: 2015-08-20
 
 
 
-# String
+## String
 
 ```java
     String str = new String(char[]);
