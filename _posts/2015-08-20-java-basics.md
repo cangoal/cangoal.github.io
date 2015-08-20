@@ -17,6 +17,24 @@ date: 2015-08-20
             }
     };
 ```
+### 2. loop keySet(), valueSet(), EntrySet()
+```java
+    Map<String, Object> map = ...;
+    
+    for (String key : map.keySet()) {
+        // ...
+    }
+    
+    for (Object value : map.values()) {
+        // ...
+    }
+    
+    for (Map.Entry<String, Object> entry : map.entrySet()) {
+        String key = entry.getKey();
+        Object value = entry.getValue();
+        // ...
+    }
+```
 ## Character
 ```java
     Character.isLetterOrDigit();
