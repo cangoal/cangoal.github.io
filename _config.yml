@@ -1,3 +1,4 @@
 name : cangoal
 markdown: kramdown
+highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
