@@ -39,7 +39,6 @@ date: 2015-08-20
 ```
 
 ## Comparator & Comparable
-
 ```java
     public Comparator<Integer> comparator = new Comparator<Integer>(){
          @Override
@@ -56,11 +55,12 @@ date: 2015-08-20
 
 
 ## String
-
+{% highlight java %}
 ```java
     String str = new String(char[]);
 ```
-
+{% endhighlight %}
+{% highlight java %}
 ```javascript
     var flags = $('.out-of-compliance-flag');
         flags.each(function () {
@@ -71,7 +71,8 @@ date: 2015-08-20
             }
         });
 ```
-
+{% endhighlight %}
+{% highlight java %}
 ```css
 #out-of-compliance-msg{
     font-size: medium;
@@ -81,7 +82,8 @@ date: 2015-08-20
     padding-top:15px;
 }
 ```
-
+{% endhighlight %}
+{% highlight java %}
 ```c#
 [HttpGet]
         public ActionResult Index(string badgeNumber, string teamCode, bool editable = true)
@@ -99,3 +101,4 @@ date: 2015-08-20
             return View(model);
         }
 ```
+{% endhighlight %}
