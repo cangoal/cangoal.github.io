@@ -4,8 +4,8 @@ title: Java Basics - my cheeting sheet
 date: 2015-08-20
 ---
 # Map
-##### 1.Declaration and Initialization
-~~~ java
+##### 1. Declaration and Initialization
+```java
     private static final Map<Character, Character> map = new HashMap<Character, Character>(){
             {
                 put('(', ')');
@@ -14,7 +14,7 @@ date: 2015-08-20
                 put('key', 'value');
             }
     };
-~~~
+```
 # Character
 ```java
     Character.isLetterOrDigit();
