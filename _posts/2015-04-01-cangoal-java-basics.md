@@ -3,10 +3,8 @@ layout: post
 title: "Java Basics - my cheeting sheet"
 date: 2015-08-20
 ---
-
 # Map
 ##### 1. Declaration and Initialization
-
 ``` java
     private static final Map<Character, Character> map = new HashMap<Character, Character>(){
             {
@@ -22,7 +20,6 @@ date: 2015-08-20
     Character.isLetterOrDigit();
     Character.toLowerCase();
 ```
-
 # Bit Manipulation
 ``` java
     &   // bitwise AND
@@ -31,15 +28,12 @@ date: 2015-08-20
     >>  // signed right shift
     >>> // unsigned right shift
 ```
-
 # StringBuilder
 
 ``` java
     deleteCharAt(index)
 ```
-
 # Comparator & Comparable
-
 ``` java
     public Comparator<Integer> comparator = new Comparator<Integer>(){
          @Override
@@ -52,11 +46,7 @@ date: 2015-08-20
     // comparator ---> compareTo()
     // comparable ---> compare()
 ```
-
-
-
 # String
-
 ``` java
     String str = new String(char[]);
 ```
