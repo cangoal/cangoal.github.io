@@ -1,7 +1,8 @@
 name : cangoal
-markdown: rdiscount
-# markdown: kramdown
-# markdown:  redcarpet
-# highlighter: pygments
-pygments: true
+highlighter: pygments
+markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix:'id-'
 permalink: /blog/:year/:month/:day/:title
