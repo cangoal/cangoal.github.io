@@ -52,50 +52,8 @@ date: 2015-08-20
     // comparable ---> compare()
 ```
 
-
-
 ## String
-{% highlight java %}
 ```java
     String str = new String(char[]);
 ```
-{% endhighlight %}
-{% highlight java %}
-```javascript
-    var flags = $('.out-of-compliance-flag');
-        flags.each(function () {
-            var value = $(this).val();
-            if (value === "Y") {
-                $(this).parents('td').find('.glyphicon-exclamation-sign').removeClass('invisible');
-                $(this).parents('tr').addClass('danger');
-            }
-        });
-```
-{% endhighlight %}
 
-{% highlight css %}
-#out-of-compliance-msg{
-    font-size: medium;
-    color: #a94442;
-    font-weight:bold;
-    display:none;
-    padding-top:15px;
-}
-{% endhighlight %}
-
-{% highlight c# %}
-        public ActionResult Index(string badgeNumber, string teamCode, bool editable = true)
-        {
-            string terminalCode = string.IsNullOrEmpty(teamCode) ? string.Empty : teamCode.Substring(0, 3);
-            teamCode = string.IsNullOrEmpty(teamCode) ? string.Empty : teamCode;
-
-            DriversTeamViewModel model = new DriversTeamViewModel()
-            {
-                LocationCollection = _context.GetListOfServiceCenter(terminalCode),
-                TeamCodeCollection = _context.GetListOfTeamCode(teamCode, terminalCode),
-                Drivers = _context.GetTeamDriversByTeamCode(teamCode)
-            };
-            model.IsEditable = editable;
-            return View(model);
-        }
-{% endhighlight %}
