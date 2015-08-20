@@ -10,7 +10,7 @@ and I can use Markdown to author my posts. It actually is a lot easier than I th
 If you'd like to learn more about GitHub Pages but don't konw where to get started, I would suggest you read this [POST](http://jmcglone.com/guides/github-pages/).
 
 
-#### this is a test
+## this is a test
 
 ```java
 public static 
