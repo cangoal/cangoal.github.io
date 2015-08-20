@@ -72,8 +72,8 @@ date: 2015-08-20
         });
 ```
 {% endhighlight %}
-{% highlight java %}
-```css
+
+{% highlight css %}
 #out-of-compliance-msg{
     font-size: medium;
     color: #a94442;
@@ -81,11 +81,9 @@ date: 2015-08-20
     display:none;
     padding-top:15px;
 }
-```
 {% endhighlight %}
-{% highlight java %}
-```c#
-[HttpGet]
+
+{% highlight c# %}
         public ActionResult Index(string badgeNumber, string teamCode, bool editable = true)
         {
             string terminalCode = string.IsNullOrEmpty(teamCode) ? string.Empty : teamCode.Substring(0, 3);
@@ -100,5 +98,4 @@ date: 2015-08-20
             model.IsEditable = editable;
             return View(model);
         }
-```
 {% endhighlight %}
