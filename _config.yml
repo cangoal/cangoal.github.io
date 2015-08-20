@@ -3,4 +3,5 @@ name : cangoal
 # markdown: kramdown
 markdown:  redcarpet
 highlighter: pygments
+pygments: true
 permalink: /blog/:year/:month/:day/:title
