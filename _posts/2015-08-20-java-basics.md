@@ -7,7 +7,7 @@ date: 2015-08-20
 # Map
 ##### 1. Declaration and Initialization
 
-``` java
+```java
     private static final Map<Character, Character> map = new HashMap<Character, Character>(){
             {
                 put('(', ')');
@@ -18,13 +18,13 @@ date: 2015-08-20
     };
 ```
 # Character
-``` java
+```java
     Character.isLetterOrDigit();
     Character.toLowerCase();
 ```
 
 # Bit Manipulation
-``` java
+```java
     &   // bitwise AND
     ^   // bitwise exclusive OR, boolean exclusive OR 
     |   //  bitwise inclusive OR
@@ -34,13 +34,13 @@ date: 2015-08-20
 
 # StringBuilder
 
-``` java
+```java
     deleteCharAt(index)
 ```
 
 # Comparator & Comparable
 
-``` java
+```java
     public Comparator<Integer> comparator = new Comparator<Integer>(){
          @Override
          public int compare(Integer num1, Integer num2){
@@ -57,6 +57,6 @@ date: 2015-08-20
 
 # String
 
-``` java
+```java
     String str = new String(char[]);
 ```
