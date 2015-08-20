@@ -60,3 +60,42 @@ date: 2015-08-20
 ```java
     String str = new String(char[]);
 ```
+
+```javascript
+    var flags = $('.out-of-compliance-flag');
+        flags.each(function () {
+            var value = $(this).val();
+            if (value === "Y") {
+                $(this).parents('td').find('.glyphicon-exclamation-sign').removeClass('invisible');
+                $(this).parents('tr').addClass('danger');
+            }
+        });
+```
+
+```css
+#out-of-compliance-msg{
+    font-size: medium;
+    color: #a94442;
+    font-weight:bold;
+    display:none;
+    padding-top:15px;
+}
+```
+
+```c#
+[HttpGet]
+        public ActionResult Index(string badgeNumber, string teamCode, bool editable = true)
+        {
+            string terminalCode = string.IsNullOrEmpty(teamCode) ? string.Empty : teamCode.Substring(0, 3);
+            teamCode = string.IsNullOrEmpty(teamCode) ? string.Empty : teamCode;
+
+            DriversTeamViewModel model = new DriversTeamViewModel()
+            {
+                LocationCollection = _context.GetListOfServiceCenter(terminalCode),
+                TeamCodeCollection = _context.GetListOfTeamCode(teamCode, terminalCode),
+                Drivers = _context.GetTeamDriversByTeamCode(teamCode)
+            };
+            model.IsEditable = editable;
+            return View(model);
+        }
+```
