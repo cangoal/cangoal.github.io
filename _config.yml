@@ -1,7 +1,7 @@
 name : cangoal
-# markdown: rdiscount
+markdown: rdiscount
 # markdown: kramdown
-markdown:  redcarpet
-highlighter: pygments
+# markdown:  redcarpet
+# highlighter: pygments
 pygments: true
 permalink: /blog/:year/:month/:day/:title
