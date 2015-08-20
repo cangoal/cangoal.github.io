@@ -9,7 +9,7 @@ and I can use Markdown to author my posts. It actually is a lot easier than I th
 
 If you'd like to learn more about GitHub Pages but don't konw where to get started, I would suggest you read this [POST](http://jmcglone.com/guides/github-pages/).
 
-
+```ruby
 {% highlight ruby %}
 def show
   @widget = Widget(params[:id])
@@ -19,3 +19,4 @@ def show
   end
 end
 {% endhighlight %}
+```ruby
