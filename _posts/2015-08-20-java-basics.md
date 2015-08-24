@@ -75,3 +75,10 @@ date: 2015-08-20
     String str = new String(char[]);
 ```
 
+## TreeSet
+```java
+    Set<Integer> set = new TreeSet<Integer>();
+    set.floor(E e);
+    set.ceiling(E e);
+```
+
