@@ -77,8 +77,8 @@ date: 2015-08-20
 
 ## TreeSet
 ```java
-    Set<Integer> set = new TreeSet<Integer>();
-    set.floor(E e);
-    set.ceiling(E e);
+    TreeSet<Integer> treeSet = new TreeSet<Integer>();
+    treeSet.floor(E e);
+    treeSet.ceiling(E e);
 ```
 
