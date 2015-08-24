@@ -81,4 +81,19 @@ date: 2015-08-20
     treeSet.floor(E e);
     treeSet.ceiling(E e);
 ```
-
+## Deque
+```java
+   Deque<Integer> q = new ArrayDeque<>();
+   q.peek();
+   q.peekLat();
+   q.poll();
+   q.offer(Integer e);
+```
+## Priority Queue
+```java
+   PriorityQueue<Integer> q = new PriorityQueue<>(k, comparator);
+   q.peek();
+   q.poll();
+   q.offer(Integer e);
+   q.remove();
+```
