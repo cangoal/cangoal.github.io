@@ -6,8 +6,7 @@ date: 2015-08-26
 
 Background will apply to content area and padding area.
 
-Margin collapsing only happens with the vertical margins of block boxes in the normal flow of the
-document. Margins between inline boxes, floated, or absolutely positioned boxes never collapse
+Margin collapsing only happens with the vertical margins of **block boxes** in the normal flow of the document. Margins between inline boxes, floated, or absolutely positioned boxes never collapse
 
 There are three basic positioning schemes in CSS: normal flow, floats, and absolute positioning
 
