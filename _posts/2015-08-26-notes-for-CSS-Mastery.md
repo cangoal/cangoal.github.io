@@ -4,7 +4,7 @@ title: "Notes for CSS Mastery"
 date: 2015-08-26
 ---
 
-background -> content and padding
+Background will apply to content area and padding area.
 
 Margin collapsing only happens with the vertical margins of block boxes in the normal flow of the
 document. Margins between inline boxes, floated, or absolutely positioned boxes never collapse
