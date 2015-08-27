@@ -4,9 +4,13 @@ title: "Notes for CSS Mastery"
 date: 2015-08-26
 ---
 
-Background will apply to content area and padding area.
+Background will apply to **content** area and **padding** area.
 
-Margin collapsing only happens with the vertical margins of **block boxes** in the normal flow of the document. Margins between **inline boxes**, **floated**, or **absolutely positioned boxes** never collapse.
+When two or more vertical margins meet, they will collapse to form a single margin. The height of this margin will equal the height of the larger of the two collapsed margins. 
+When one element is contained within another element, assuming there is no padding or border separating margins, their top and/or bottom margins will also collapse together the **larger** of the two collapsed margins.
+Margins can even collapse on themselves. Say you have an empty element with a margin but no border or padding. In this situation, the top margin is touching the bottom margin, and they collapse together.
+
+Margin collapsing only happens with the **vertical margins** of **block boxes** in the normal flow of the document. Margins between **inline boxes**, **floated**, or **absolutely positioned boxes** never collapse.
 
 There are three basic positioning schemes in CSS: **normal flow**, **floats**, and **absolute positioning**.
 
