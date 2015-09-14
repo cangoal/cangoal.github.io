@@ -48,6 +48,7 @@ date: 2015-08-20
     |   //  bitwise inclusive OR
     >>  // signed right shift
     >>> // unsigned right shift
+    -a == ~(a - 1) = true
 ```
 
 ## StringBuilder
