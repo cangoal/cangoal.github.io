@@ -62,8 +62,8 @@ date: 2015-08-20
     public Comparator<Integer> comparator = new Comparator<Integer>(){
          @Override
          public int compare(Integer num1, Integer num2){
-         String str = "";
-         return (str+num2+num1).compareTo(str+num1+num2);
+             String str = "";
+             return (str+num2+num1).compareTo(str+num1+num2);
           }
     };
     
@@ -97,4 +97,31 @@ date: 2015-08-20
    q.poll();
    q.offer(Integer e);
    q.remove();
+```
+
+## Iterator
+```java
+    public class MyCollection<E> implements Iterator<E>{
+        public Interator<E> iterator(){
+            return new MyIterator<E>();
+        }
+    }
+    
+    public class MyIterator<T> implements Iterator<T>{
+        public boolean hasNext(){
+            // implement...
+        }
+        
+        public T next(){
+            // implement...
+        }
+    }
+    // how to use 
+    public static void main(String[] args){
+        MyCollection<String> stringCollection = new MyCollection<String>();
+        for(String string : stringCollection){
+        
+        }
+    }
+    
 ```
