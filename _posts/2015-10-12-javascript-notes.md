@@ -6,7 +6,7 @@ date: 2015-10-12
 
 
 编写js的类，使其拥有public和private类型的属性和方法
-
+```javascript
 function Person(_name,_age,_sex,_salary){
 	//public
 	this.name = _name;
@@ -42,3 +42,4 @@ function Person(_name,_age,_sex,_salary){
 
 var smirk = new Person("zy","21","f","5000");
 smirk.display();
+```javascript
