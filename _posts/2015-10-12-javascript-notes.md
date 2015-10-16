@@ -42,4 +42,4 @@ function Person(_name,_age,_sex,_salary){
 
 var smirk = new Person("zy","21","f","5000");
 smirk.display();
-```javascript
+```
