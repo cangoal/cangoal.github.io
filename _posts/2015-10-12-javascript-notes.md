@@ -78,7 +78,8 @@ function createPerson(name, age, job){
 	o.age = age;
 	o.job = job;
 	o.sayName = function(){
-	alert(this.name); };
+	     alert(this.name); 
+	};
 	return o;
 }
 var person1 = createPerson(“Nicholas”, 29, “Software Engineer”); 
@@ -111,8 +112,10 @@ function Person(){ }
 };
 var person1 = new Person(); 
 person1.sayName(); //”Nicholas”
+
 var person2 = new Person();
 person2.sayName(); //”Nicholas” 
+
 alert(person1.sayName == person2.sayName); //true
 ```
 The major problem is both properties and functions are shared by all instances
@@ -161,9 +164,11 @@ function SubType(){ }
 
 //inherit from SuperType 
 SubType.prototype = new SuperType();
+
 var instance1 = new SubType(); 
 instance1.colors.push(“black”); 
 alert(instance1.colors); //”red,blue,green,black”
+
 var instance2 = new SubType(); 
 alert(instance2.colors); //”red,blue,green,black”
 ```
@@ -211,6 +216,7 @@ instance1.colors.push("black");
 alert(instance1.colors); //”red,blue,green,black” 
 instance1.sayName(); //”Nicholas”; 
 instance1.sayAge(); //29
+
 var instance2 = new SubType("Greg", 27); 
 alert(instance2.colors); //”red,blue,green” 
 instance2.sayName(); //”Greg”; 
