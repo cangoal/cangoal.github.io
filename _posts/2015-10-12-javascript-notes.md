@@ -151,13 +151,14 @@ alert(person1.sayName === person2.sayName); //true
 - Durable Constructor Pattern
 
 ### Inheritance
+- Prototype Chaining
 ```javascript
-// Prototype Chaining
-	//problems with prototype chaining
+//problems with prototype chaining
 function SuperType(){
 	this.colors = [“red”, “blue”, “green”];
 };
 function SubType(){ }
+
 //inherit from SuperType 
 SubType.prototype = new SuperType();
 var instance1 = new SubType(); 
@@ -165,8 +166,9 @@ instance1.colors.push(“black”);
 alert(instance1.colors); //”red,blue,green,black”
 var instance2 = new SubType(); 
 alert(instance2.colors); //”red,blue,green,black”
-
-// Constructor Stealing (sometimes called object masquerading or classical inheritance)
+```
+- Constructor Stealing (object masquerading or classical inheritance)
+```javascript
 function SuperType(){
 	this.colors = [“red”, “blue”, “green”];
 }
@@ -177,19 +179,22 @@ function SubType(){
 var instance1 = new SubType(); 
 instance1.colors.push(“black”);
 alert(instance1.colors); //”red,blue,green,black”
+
 var instance2 = new SubType(); 
 alert(instance2.colors); //”red,blue,green”
 
 // The downside to using constructor stealing exclusively is that it introduces the same problems 
 // as the constructor pattern for custom types: methods must be defined inside the constructor, 
 //so there’s no function reuse.
-
-// Combination Inheritance(sometimes also called pseudoclassical inheritance)
+```
+- Combination Inheritance(sometimes also called pseudoclassical inheritance)
+```javascript
 function SuperType(name){
 	this.name = name;
 	this.colors = ["red", "blue", "green"];
 }
-SuperType.prototype.sayName = function(){ alert(this.name);
+SuperType.prototype.sayName = function(){ 
+	alert(this.name);
 };
 function SubType(name, age){
 	//inherit properties 
@@ -210,9 +215,7 @@ var instance2 = new SubType("Greg", 27);
 alert(instance2.colors); //”red,blue,green” 
 instance2.sayName(); //”Greg”; 
 instance2.sayAge(); //27
-
-// Prototypal Inheritance
-
-// Parasitic Inheritance
-// Parasitic Combination Inheritance
 ```
+- Prototypal Inheritance
+- Parasitic Inheritance
+- Parasitic Combination Inheritance
