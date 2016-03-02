@@ -1,8 +1,9 @@
 name : cangoal
-highlighter: rouge
+highlighter: pygments
 markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
   input:         GFM
+  syntax_highlighter: rouge
 #   auto_ids:      true
 #   auto_id_prefix:'id-'
 # highlighter: pygments
