@@ -1,18 +1,10 @@
 name : cangoal
 highlighter: rouge
-markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
+markdown: kramdown
 kramdown:
   input:         GFM
   syntax_highlighter: rouge
-#   auto_ids:      true
-#   auto_id_prefix:'id-'
-# highlighter: pygments
-# markdown: redcarpet
-# redcarpet:
-#   extensions:
-#     - fenced_code_blocks
-#     - no_intra_emphasis
-#     - strikethrough
-#     - autolink
-#     - tables
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
 permalink: /blog/:year/:month/:day/:title
