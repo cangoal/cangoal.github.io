@@ -1,6 +1,6 @@
 name : cangoal
-highlighter: pygments
-markdown: rdiscount  # [ maruku | rdiscount | kramdown | redcarpet ]
+highlighter: rouge
+markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
   input:         GFM
 #   auto_ids:      true
