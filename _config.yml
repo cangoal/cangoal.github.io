@@ -1,5 +1,5 @@
 name : cangoal
-# highlighter: rouge
+highlighter: rouge
 markdown: redcarpet
 pygments: true
 # kramdown:
