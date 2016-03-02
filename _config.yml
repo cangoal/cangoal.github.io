@@ -1,5 +1,5 @@
 name : cangoal
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
   input:         GFM
