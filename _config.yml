@@ -1,6 +1,6 @@
 name : cangoal
 highlighter: rouge
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 kramdown:
   input:         GFM
