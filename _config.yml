@@ -5,7 +5,7 @@ pygments: true
 kramdown:
   input:         GFM
   syntax_highlighter: rouge
-# syntax-highlighting:
-#   enabled : true
-#   css: syntax.css
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
 permalink: /blog/:year/:month/:day/:title
