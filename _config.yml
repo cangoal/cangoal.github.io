@@ -2,9 +2,9 @@ name : cangoal
 highlighter: rouge
 markdown: redcarpet
 pygments: true
-# kramdown:
-#   input:         GFM
-#   syntax_highlighter: rouge
+kramdown:
+  input:         GFM
+  syntax_highlighter: rouge
 # syntax-highlighting:
 #   enabled : true
 #   css: syntax.css
